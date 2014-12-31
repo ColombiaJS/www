@@ -30,11 +30,9 @@ module.exports = function (callback) {
     request(url, function onRequest(err, res, body) {
       if (err) return callback(err);
       var meetupEvents = JSON.parse(body).results;
-      var cols = 12 / meetupEvents.length;
       var events = meetupEvents.map(function (e) {
          var event = {
           id: e.id,
-          cols: cols - 1,
           title: e.name,
           description: e.description,
           link: e.event_url,
