@@ -1,0 +1,12 @@
+<% var by = public.posts._data.authors[author] %>
+<article>
+  <h2><%= title %></h2>
+  <span class="datetime"><%= new Date(date) %></span>
+  <a href="https://github.com/<%= by.github %>" target="_new"><%= by.name %></a>
+  <div>
+    <%- yield %>
+  </div>
+  <div>
+    <%- partial("_comments") %>
+  </div>
+</article>

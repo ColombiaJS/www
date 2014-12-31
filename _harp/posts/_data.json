@@ -1,0 +1,22 @@
+{
+  "index": {
+    "layout": "../_layout"
+  },
+  "posts": {
+    "sample-post": {
+      "title": "Sample post",
+      "author": "julianduque",
+      "date": "2014-08-07T12:00:00.000Z"
+    }
+  },
+  "authors": {
+    "julianduque": {
+      "name": "Julián Duque",
+      "bio": "Developer and Educator by Passion. @NodeSource. Co-Organizer at @MedellinJS & @JSConfCo. Teaching at @Code_rise & @makeitrealcamp",
+      "twitter": "julian_duque",
+      "github": "julianduque",
+      "avatar": "https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png",
+      "website": "https://about.me/julianduque"
+    }
+  }
+}
