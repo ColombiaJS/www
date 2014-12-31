@@ -1,6 +1,4 @@
-# MedellinJS
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/ColombiaJS/medellinjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+# ColombiaJS
 Site powered by [Harp](http://harpjs.com)
 
 ## How to write a Post?
@@ -14,7 +12,7 @@ Site powered by [Harp](http://harpjs.com)
 
 ## The MIT License (MIT)
 
-Copyright (c) 2014 - MedellinJS & ColombiaJS
+Copyright (c) 2014 - ColombiaJS
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
