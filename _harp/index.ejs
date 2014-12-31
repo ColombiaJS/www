@@ -3,9 +3,7 @@
   function excerpt(content) {
     return content.split('<!-- more -->')[0];
   }
-%>
 
-<%
   function slice(object, items) {
     var count = 0;
     var sliced = {};
@@ -23,7 +21,7 @@
 <section id="eventos"></section>
 
 <section id="articulos">
-  <% 
+  <%
     var posts = slice(public.posts._data.posts, 3);
     for(var slug in posts) {
       var post = posts[slug];
