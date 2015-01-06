@@ -25,6 +25,7 @@ app.get('/events.json', function (req, res) {
 });
 
 // Update site
+// TODO: Deprecate in favor of a real solution
 app.post('/update', function (req, res) {
   exec('git pull && grunt build', function (err, stdout, stderr) {
     if (err) return;
