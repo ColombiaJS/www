@@ -1,0 +1,1680 @@
+/* line 56, ../../icons/*.png */
+.icons-sprite {
+  background-image: url('../img/icons-s030aabdbf6.png');
+  background-repeat: no-repeat;
+}
+
+/* line 79, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 86, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.centered {
+  max-width: 960px;
+  *width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 92, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 105, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 111, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.clearfix {
+  *zoom: 1;
+}
+/* line 29, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 117, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.btn, .btn-large, .btn-large--right {
+  padding: 0.6em 1em;
+  position: relative;
+  background-color: #697668;
+  color: white;
+  border: 1px solid white;
+  -moz-box-shadow: 0 0 0 1.6px #697668;
+  -webkit-box-shadow: 0 0 0 1.6px #697668;
+  box-shadow: 0 0 0 1.6px #697668;
+  text-decoration: none;
+}
+/* line 127, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.btn:hover, .btn-large:hover, .btn-large--right:hover {
+  opacity: 0.9;
+}
+
+/* line 140, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.btn-large, .btn-large--right {
+  font-size: 1.2em;
+}
+
+/* line 144, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.btn-large--right {
+  height: 51px;
+  z-index: 2;
+  margin-right: 25px;
+  -moz-box-shadow: 0px 0 0 1.6px #697668, 0.9px 0 0 1.6px #697668;
+  -webkit-box-shadow: 0px 0 0 1.6px #697668, 0.9px 0 0 1.6px #697668;
+  box-shadow: 0px 0 0 1.6px #697668, 0.9px 0 0 1.6px #697668;
+}
+/* line 170, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.btn-large--right:after {
+  content: " ";
+  position: absolute;
+  height: 36px;
+  width: 37px;
+  border: none;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  background-color: #697668;
+  top: -2px;
+  right: -1px;
+  -moz-box-shadow: 2px 2px 0 0 #697668, 1px 1px 0 1px #697668;
+  -webkit-box-shadow: 2px 2px 0 0 #697668, 1px 1px 0 1px #697668;
+  box-shadow: 2px 2px 0 0 #697668, 1px 1px 0 1px #697668;
+  -webkit-transform-origin: right top;
+  -moz-transform-origin: right top;
+  -ms-transform-origin: right top;
+  -o-transform-origin: right top;
+  transform-origin: right top;
+  z-index: -1;
+  -moz-transform: rotate(-45deg) translate3d(0px, 1px, 0px);
+  -ms-transform: rotate(-45deg) translate3d(0px, 1px, 0px);
+  -webkit-transform: rotate(-45deg) translate3d(0px, 1px, 0px);
+  transform: rotate(-45deg) translate3d(0px, 1px, 0px);
+}
+
+/* line 196, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.cols-wrapper {
+  display: flex;
+}
+
+/* line 199, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.cols-wrapper__col {
+  flex: 1;
+}
+
+/* line 205, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.box-title-container {
+  text-align: center;
+}
+
+/* line 208, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.box-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 0.75em;
+  border: 3px solid #cbcbcb;
+  padding: 4px;
+  letter-spacing: 1px;
+  color: #5d5f50;
+  margin: 3em auto 1.6em;
+}
+
+/* line 219, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.box-title__inner {
+  border: 1px solid #cbcbcb;
+  display: block;
+  padding: 0.8em 1.6em 0.7em;
+  text-decoration: none;
+}
+
+/* line 8, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.4;
+}
+
+/* line 12, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+}
+
+/* line 19, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+html,
+button,
+input,
+select,
+textarea {
+  color: #787b67;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url('../fonts/icomoon/fonts/icomoon.eot?o87moc&1412166314');
+  src: url('../fonts/icomoon/fonts/icomoon.eot?&1412166314#iefixo87moc') format("embedded-opentype"), url('../fonts/icomoon/fonts/icomoon.woff?o87moc&1412166314') format("woff"), url('../fonts/icomoon/fonts/icomoon.ttf?o87moc&1412166314') format("truetype"), url('../fonts/icomoon/fonts/icomoon.svg?o87moc&1412166314#icomoon') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 37, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: "icomoon";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 51, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+.icon-event:before {
+  content: "\e604";
+}
+
+/* line 54, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+.icon-email:before {
+  content: "\e601";
+}
+
+/* line 57, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+.icon-link:before {
+  content: "\e602";
+}
+
+/* line 60, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+.icon-blog:before {
+  content: "\e603";
+}
+
+/* line 63, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+.icon-hangout:before {
+  content: "\e605";
+}
+
+/* line 66, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_fonts.sass */
+.icon-twitter:before {
+  content: "\e600";
+}
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 32, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 52, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 65, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 75, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 87, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 95, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 107, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 115, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 124, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 133, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 142, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 151, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 159, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 167, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 171, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 182, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 190, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 201, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 209, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 219, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 227, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 250, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 264, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 275, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 288, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 300, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 309, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 320, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 332, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 344, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 355, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 377, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 388, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 397, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 406, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 417, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 422, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/normalize-css/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* Slider */
+/* line 40, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 54, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* line 61, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-list:focus {
+  outline: none;
+}
+/* line 65, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-loading .slick-list {
+  background: white url('../img/ajax-loader.gif') center center no-repeat;
+}
+/* line 69, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 74, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-slider .slick-list,
+.slick-track,
+.slick-slide,
+.slick-slide img {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 84, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  zoom: 1;
+}
+/* line 91, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+/* line 97, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-track:after {
+  clear: both;
+}
+/* line 101, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+/* line 105, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+/* line 109, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+/* line 112, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-slide img {
+  display: block;
+}
+/* line 115, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-slide.slick-loading img {
+  display: none;
+}
+/* line 121, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+/* line 125, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-initialized .slick-slide {
+  display: block;
+}
+/* line 129, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+/* line 133, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  src: url('../fonts/slick.eot');
+  src: url('../fonts/slick.eot?#iefix') format("embedded-opentype"), url('../fonts/slick.woff') format("woff"), url('../fonts/slick.ttf') format("truetype"), url('../fonts/slick.svg#slick') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Arrows */
+/* line 156, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  margin-top: -10px;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+/* line 172, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-prev:hover, .slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  outline: none;
+  background: transparent;
+  color: transparent;
+}
+/* line 176, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-prev:hover:before, .slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+/* line 180, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+
+/* line 184, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-prev:before, .slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 193, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-prev {
+  left: -25px;
+}
+/* line 195, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+[dir="rtl"] .slick-prev {
+  left: auto;
+  right: -25px;
+}
+/* line 199, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-prev:before {
+  content: "\2190";
+}
+/* line 201, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+[dir="rtl"] .slick-prev:before {
+  content: "\2192";
+}
+
+/* line 206, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-next {
+  right: -25px;
+}
+/* line 208, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+[dir="rtl"] .slick-next {
+  left: -25px;
+  right: auto;
+}
+/* line 212, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-next:before {
+  content: "\2192";
+}
+/* line 214, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+[dir="rtl"] .slick-next:before {
+  content: "\2190";
+}
+
+/* Dots */
+/* line 222, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-slider {
+  margin-bottom: 30px;
+}
+
+/* line 225, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-dots {
+  position: absolute;
+  bottom: -45px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+/* line 234, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+/* line 243, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-dots li button {
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+/* line 255, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-dots li button:hover, .slick-dots li button:focus {
+  outline: none;
+}
+/* line 257, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+  opacity: 1;
+}
+/* line 262, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "\2022";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  text-align: center;
+  color: black;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 281, /Users/davsket/workspace/colombiajs.co/content/sass/plugins/slick.scss */
+.slick-dots li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
+}
+
+/* line 10, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+html, body {
+  background: #f2f2f2 url('../img/background.jpg?1412745326');
+}
+
+/* line 20, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+body {
+  color: #787b67;
+}
+
+/* line 35, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 39, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 46, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d0d0d0;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 57, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+img {
+  vertical-align: middle;
+}
+
+/* line 62, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 69, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+textarea {
+  resize: vertical;
+}
+
+/* line 74, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+a {
+  color: inherit;
+}
+
+/* line 80, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #cccccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+/* line 88, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_general.sass */
+.content {
+  max-width: 960px;
+  *width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header {
+  *zoom: 1;
+  padding-top: 3em;
+  position: relative;
+  padding-bottom: 2.2em;
+  margin-bottom: 3.2em;
+}
+/* line 29, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.main-header:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+/* line 8, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #c2c3b8;
+}
+/* line 17, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header h1 {
+  margin: 0;
+}
+
+/* line 20, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__logo {
+  float: left;
+  overflow: hidden;
+  text-indent: -99999em;
+  background-image: url('../img/logo.png?1409530928');
+  width: 199px;
+  height: 93px;
+  text-align: left;
+}
+
+/* line 29, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__menu {
+  float: right;
+  padding-top: 2.5em;
+}
+/* line 33, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__menu i, .main-header__menu a {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 37, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 0 1.2em;
+}
+/* line 44, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__menu a:hover {
+  border-bottom: 1px solid;
+}
+/* line 47, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__menu i {
+  border-left: 1px solid white;
+  border-right: 1px solid #c2c3b8;
+  height: 1em;
+}
+
+/* line 52, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__special-link, .main-header__special-link--events,
+.main-header__special-link--blog,
+.main-header__special-link--hg {
+  position: relative;
+}
+/* line 55, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__special-link:after, .main-header__special-link--events:after,
+.main-header__special-link--blog:after,
+.main-header__special-link--hg:after {
+  content: "\e602";
+  font-family: icomoon;
+  vertical-align: middle;
+  font-size: 0.9em;
+  margin-left: 0.2em;
+  position: absolute;
+  left: 100%;
+  top: 0.15em;
+}
+
+/* line 70, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__special-link--events {
+  color: #3fb93a;
+}
+
+/* line 72, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__special-link--blog {
+  color: #f45737;
+}
+
+/* line 74, /Users/davsket/workspace/colombiajs.co/content/sass/shared/_header.sass */
+.main-header__special-link--hg {
+  color: #3a7eea;
+}
+
+/* line 1, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-about-coljs.sass */
+.about-coljs {
+  font-weight: 100;
+  font-size: 1.6em;
+  margin-bottom: 2.5em;
+}
+
+/* line 2, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue, .ue--hangout, .ue--meetup {
+  margin: 2em 30px;
+  background: white;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  padding-bottom: 20px;
+}
+
+/* line 8, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue__link {
+  padding: 1em;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 14, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue__title {
+  color: #3a7eea;
+  font-size: 1.9em;
+  font-weight: 100;
+  margin: 0.4em 0 0em;
+}
+
+/* line 20, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue__subtitle {
+  color: #86807b;
+  margin: 0.3em 0 1.2em;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+/* line 26, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue__date,
+.ue__time {
+  font-weight: 500;
+  font-size: 0.9em;
+  display: block;
+  color: #6b6763;
+}
+
+/* line 33, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue__go-to {
+  position: absolute;
+  right: -30px;
+  bottom: 20px;
+}
+
+/* line 38, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--hangout, .ue--meetup {
+  position: relative;
+}
+/* line 41, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--hangout .ue__link, .ue--meetup .ue__link {
+  padding-left: 170px;
+}
+/* line 44, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--hangout .ue__link:before, .ue--meetup .ue__link:before {
+  position: absolute;
+  top: 50%;
+  left: 22px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 3.5em;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  line-height: 100px;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 62, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--hangout .ue__title {
+  color: #3a7eea;
+}
+/* line 66, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--hangout .ue__link:before {
+  content: "\e605";
+  font-family: icomoon;
+  background-color: #3a7eea;
+}
+/* line 71, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--hangout .ue__go-to {
+  background-color: #3a7eea;
+  -moz-box-shadow: 0px 0 0 2px #3a7eea, 0px 0 0 2px #3a7eea;
+  -webkit-box-shadow: 0px 0 0 2px #3a7eea, 0px 0 0 2px #3a7eea;
+  box-shadow: 0px 0 0 2px #3a7eea, 0px 0 0 2px #3a7eea;
+}
+/* line 191, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.ue--hangout .ue__go-to:after {
+  background-color: #3a7eea;
+  -moz-box-shadow: 2px 2px 0 0 #3a7eea, 1px 1px 0 1px #3a7eea;
+  -webkit-box-shadow: 2px 2px 0 0 #3a7eea, 1px 1px 0 1px #3a7eea;
+  box-shadow: 2px 2px 0 0 #3a7eea, 1px 1px 0 1px #3a7eea;
+}
+
+/* line 77, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--meetup .ue__title {
+  color: #3fb93a;
+}
+/* line 81, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--meetup .ue__link:before {
+  content: "\e604";
+  font-family: icomoon;
+  background-color: #3fb93a;
+}
+/* line 86, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-upcoming-event.sass */
+.ue--meetup .ue__go-to {
+  background-color: #3fb93a;
+  -moz-box-shadow: 0px 0 0 2px #3fb93a, 0px 0 0 2px #3fb93a;
+  -webkit-box-shadow: 0px 0 0 2px #3fb93a, 0px 0 0 2px #3fb93a;
+  box-shadow: 0px 0 0 2px #3fb93a, 0px 0 0 2px #3fb93a;
+}
+/* line 191, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.ue--meetup .ue__go-to:after {
+  background-color: #3fb93a;
+  -moz-box-shadow: 2px 2px 0 0 #3fb93a, 1px 1px 0 1px #3fb93a;
+  -webkit-box-shadow: 2px 2px 0 0 #3fb93a, 1px 1px 0 1px #3fb93a;
+  box-shadow: 2px 2px 0 0 #3fb93a, 1px 1px 0 1px #3fb93a;
+}
+
+/* line 1, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity {
+  margin-top: 4em;
+}
+
+/* line 11, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__title {
+  background-color: #f45737;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 1.1em 0;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+/* line 22, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__title > h3 {
+  display: inline;
+  font-weight: inherit;
+}
+/* line 26, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__title:before {
+  margin-right: 0.5em;
+  font-family: icomoon;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5em;
+  height: 1.1em;
+  line-height: 1.1em;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  top: -0.1em;
+}
+
+/* line 40, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--blog .recent-activity__title {
+  background-color: #f45737;
+}
+/* line 43, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--blog .recent-activity__title:before {
+  content: "\e603";
+}
+
+/* line 47, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--events .recent-activity__title {
+  background-color: #3fb93a;
+}
+/* line 50, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--events .recent-activity__title:before {
+  content: "\e604";
+}
+
+/* line 54, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--hangouts .recent-activity__title {
+  background-color: #3a7eea;
+}
+/* line 57, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--hangouts .recent-activity__title:before {
+  content: "\e605";
+}
+
+/* line 60, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__content {
+  padding: 0 2em;
+}
+
+/* line 63, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem {
+  border-bottom: 1px solid;
+}
+/* line 64, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem > a {
+  padding: 2.8em 0 1em;
+  display: block;
+  text-decoration: none;
+}
+/* line 71, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--blog .raitem {
+  color: #f45737;
+}
+/* line 74, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--events .raitem {
+  color: #3fb93a;
+}
+/* line 77, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--hangouts .raitem {
+  color: #3a7eea;
+}
+/* line 80, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--hangouts .raitem > a {
+  padding-bottom: 0;
+}
+
+/* line 83, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem__title {
+  font-size: 1.2em;
+  font-weight: 100;
+  margin: 0 0 1.2em;
+}
+
+/* line 88, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem__description {
+  font-size: 0.9em;
+  color: #787b67;
+  font-weight: 100;
+  line-height: 1.4;
+  margin: 1em 0;
+}
+
+/* line 95, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem__time {
+  font-size: 0.9em;
+  font-weight: 500;
+  display: block;
+}
+/* line 100, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.recent-activity__col--hangouts .raitem__time {
+  margin-left: 0;
+  padding-bottom: 0.4em;
+  margin-top: 1.5em;
+  font-size: 0.8em;
+}
+
+/* line 106, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem__author {
+  line-height: 1.3;
+  font-size: 0.9em;
+  *zoom: 1;
+}
+/* line 29, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.raitem__author:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 111, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem__author__avatar {
+  float: left;
+  border: 3px solid white;
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* line 116, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem__author__name {
+  margin: 0 0 0.2em;
+  font-weight: 500;
+  padding-top: 0.3em;
+}
+
+/* line 121, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem__author__name,
+.raitem__time {
+  margin-left: 60px;
+}
+
+/* line 125, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-recent-activity.sass */
+.raitem__btn-hg {
+  background-color: #3a7eea;
+  -moz-box-shadow: 0 0 0 1.6px #3a7eea;
+  -webkit-box-shadow: 0 0 0 1.6px #3a7eea;
+  box-shadow: 0 0 0 1.6px #3a7eea;
+  display: block;
+  width: 100%;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 0.9em;
+  padding: 0.8em 1em;
+}
+
+/* line 1, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.testimonials {
+  background: white;
+  border-top: 1px solid white;
+  -moz-box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 5em;
+  border-bottom: 1px solid #dddddd;
+}
+/* line 8, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.testimonials > .centered {
+  position: relative;
+}
+
+/* line 11, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.quote.quote.quote {
+  *zoom: 1;
+  padding: 0 50px;
+}
+/* line 29, /Users/davsket/workspace/colombiajs.co/content/sass/globals/_helpers.sass */
+.quote.quote.quote:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 16, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.quote__cite {
+  padding: 1em;
+  display: block;
+  margin-left: 200px;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+/* line 24, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.quote__cite p {
+  margin: 0;
+}
+
+/* line 27, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.quote__avatar.quote__avatar {
+  float: left;
+  width: 150px;
+  height: 153px;
+  border: 10px solid white;
+  box-sizing: content-box;
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-transform: rotate(-8deg) translate3d(0, 0, 0);
+  -ms-transform: rotate(-8deg) translate3d(0, 0, 0);
+  -webkit-transform: rotate(-8deg) translate3d(0, 0, 0);
+  transform: rotate(-8deg) translate3d(0, 0, 0);
+}
+
+/* line 36, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.testimonials__left-arrow,
+.testimonials__right-arrow {
+  font-family: icomoon;
+  background: #cbcbcb;
+  color: white;
+  font-size: 2.6em;
+  line-height: 40px;
+  display: inline-block;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.14em 0.1em 0.1em 0.1em;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+/* line 54, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.testimonials__right-arrow {
+  right: 0;
+  left: auto;
+}
+
+/* line 58, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-testimonials.sass */
+.quote__author {
+  font-size: 0.75em;
+  margin-top: 1.5em;
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  color: #ada69e;
+}
+
+/* line 1, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-sponsor.sass */
+.sponsors {
+  padding-top: 2em;
+}
+
+/* line 4, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-sponsor.sass */
+.sponsors__list {
+  margin-top: 2.5em;
+}
+
+/* line 7, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-sponsor.sass */
+.sponsor {
+  display: inline-block;
+  width: 24%;
+  margin: 0 0.5%;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+
+/* line 15, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-sponsor.sass */
+.sponsor__name,
+.sponsor__url {
+  font-size: 0.7em;
+}
+
+/* line 19, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-sponsor.sass */
+.sponsor__name {
+  color: #bbbbbb;
+  font-weight: 500;
+}
+
+/* line 23, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-sponsor.sass */
+.sponsor__url {
+  text-decoration: underline;
+}
+/* line 26, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-sponsor.sass */
+.sponsor__url:hover {
+  color: #ff7611;
+}
+
+/* line 29, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-sponsor.sass */
+.sponsor__img {
+  -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  background: white;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 0.4em;
+}
+
+/* line 1, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social {
+  margin-top: 4em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: flex;
+  position: relative;
+}
+/* line 8, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social:before {
+  content: " ";
+  border-top: 1px solid white;
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+/* line 18, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__subscribe,
+.social__twitter {
+  flex: 1;
+}
+
+/* line 22, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__title {
+  font-weight: 100;
+  font-size: 1.2em;
+  margin: 0 0 1em;
+}
+/* line 27, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__title:before {
+  font-family: icomoon;
+  font-size: 2.2em;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.6em;
+}
+/* line 34, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__subscribe .social__title:before, .social__twitter .social__title:before {
+  color: transparent;
+  text-shadow: 0.025em 0.025em 0.025em #dbdbdb, 0 0 0 #c2c2c2;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 43, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__subscribe .social__title:before {
+  content: "\e601";
+}
+/* line 46, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__twitter .social__title:before {
+  content: "\e600";
+}
+/* line 49, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__title > a {
+  font-weight: 500;
+  color: #5d5f50;
+}
+
+/* line 54, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__tweet {
+  margin-bottom: 1.6em;
+}
+
+/* line 57, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__tweet__message {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1.1em 2.2em 1.4em;
+  font-size: 0.9em;
+  color: #86807b;
+  position: relative;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 65, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__tweet__message:before {
+  top: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  width: 35px;
+  height: 20px;
+  left: 55px;
+  content: " ";
+  position: absolute;
+  border-radius: 0 0 0 100%;
+}
+/* line 75, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__tweet__message:after {
+  top: 100%;
+  left: 80px;
+  width: 10px;
+  height: 20px;
+  background: #f2f2f2 url('../img/background.jpg?1412745326');
+  content: " ";
+  position: absolute;
+  border-radius: 0 0 0 100%;
+}
+
+/* line 86, /Users/davsket/workspace/colombiajs.co/content/sass/components/_block-social.sass */
+.social__tweet__footer {
+  font-size: 0.75em;
+  padding-left: 20%;
+  padding-top: 1em;
+  font-weight: 500;
+}
