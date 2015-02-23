@@ -2,3 +2,8 @@ config.json
 node_modules
 *.log
 public/*
+
+content/.sass-cache
+content/components
+.DS_Store
+_harp/_components

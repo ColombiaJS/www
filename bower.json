@@ -1,0 +1,25 @@
+{
+  "name": "colombiajsco",
+  "authors": [
+    "davsket - Monoku"
+  ],
+  "version": "0.0.0",
+  "license": "All rights reserved",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "~3.7.2",
+    "sass-mediaqueries": "~1.3.0",
+    "normalize.css": "~3.0.2",
+    "slick-carousel": "~1.4.1",
+    "jquery": "~2.1.3",
+    "prism": "git@github.com:LeaVerou/prism.git#gh-pages",
+    "handlebars": "~3.0.0",
+    "moment": "~2.9.0"
+  }
+}
