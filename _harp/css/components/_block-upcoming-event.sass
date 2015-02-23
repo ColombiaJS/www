@@ -1,0 +1,87 @@
+// ue = upcoming-event
+.ue
+	margin: 2em 30px
+	background: white
+	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+	padding-bottom: 20px
+
+.ue__link
+	padding: 1em
+	display: block
+	text-decoration: none
+
+
+.ue__title
+	color: $color-hg
+	font-size: 1.9em
+	font-weight: 100
+	margin: 0.4em 0 0em
+
+.ue__subtitle
+	color: $color-gray-text 
+	margin: 0.3em 0 1.2em
+	font-weight: 400
+	font-size: 1.1em
+
+.ue__date,
+.ue__time
+	font-weight: 500
+	font-size: 0.9em
+	display: block
+	color: darken($color-gray-text, 10%)
+
+.ue__go-to
+	position: absolute
+	right: -30px
+	bottom: 20px
+
+%ue--assigned
+	position: relative
+	
+	.ue__link
+		padding-left: 170px
+
+		&:before
+			position: absolute
+			top: 50%
+			left: 22px
+			color: white
+			width: 100px
+			height: 100px
+			text-align: center
+			font-size: 3.5em
+			border-radius: 50%
+			font-weight: 100
+			-webkit-font-smoothing: antialiased
+			line-height: 100px
+			transform: translateY(-50%)
+
+.ue--hangout
+	@extend .ue
+	@extend %ue--assigned
+	.ue__title
+		color: $color-hg
+
+	.ue__link
+		&:before
+			content: "\e605"
+			font-family: icomoon
+			background-color: $color-hg
+
+	.ue__go-to
+		+btn-large-right( $color-hg )
+
+.ue--meetup
+	@extend .ue
+	@extend %ue--assigned
+	.ue__title
+		color: $color-meetup
+
+	.ue__link
+		&:before
+			content: "\e604"
+			font-family: icomoon
+			background-color: $color-meetup
+
+	.ue__go-to
+		+btn-large-right( $color-meetup )

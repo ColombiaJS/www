@@ -1,0 +1,132 @@
+.recent-activity
+	margin-top: 4em
+
+// %recent-activity__col
+
+// .recent-activity__col--blog,
+// .recent-activity__col--events,
+// .recent-activity__col--hangouts
+// 	// @extend %recent-activity__col
+
+.recent-activity__title
+	background-color: $color-blog
+	color: white
+	font-weight: 400
+	text-transform: uppercase
+	font-size: 1em
+	padding: 1.1em 0
+	text-align: center
+	display: block
+	text-decoration: none
+
+	> h3
+		display: inline
+		font-weight: inherit
+
+	&:before
+		margin-right: 0.5em
+		font-family: icomoon
+		font-weight: 100
+		-webkit-font-smoothing: antialiased
+		font-size: 1.5em
+		height: 1.1em
+		line-height: 1.1em
+		vertical-align: middle
+		display: inline-block
+		position: relative
+		top: -0.1em
+
+.recent-activity__col--blog
+	.recent-activity__title
+		background-color: $color-blog
+
+		&:before
+			content: icon-blog()
+
+.recent-activity__col--events
+	.recent-activity__title
+		background-color: $color-events
+
+		&:before
+			content: icon-event()
+
+.recent-activity__col--hangouts
+	.recent-activity__title
+		background-color: $color-hangouts
+
+		&:before
+			content: icon-hangout()
+
+.recent-activity__content
+	padding: 0 2em
+
+.raitem
+	> a
+		padding: 2.8em 0 1em
+		display: block
+		text-decoration: none
+
+	border-bottom: 1px solid
+
+	.recent-activity__col--blog &
+		color: $color-blog
+
+	.recent-activity__col--events &
+		color: $color-events
+
+	.recent-activity__col--hangouts &
+		color: $color-hangouts
+
+		> a
+			padding-bottom: 0
+
+.raitem__title
+	font-size: 1.2em
+	font-weight: 100
+	margin: 0 0 1.2em
+
+.raitem__description
+	font-size: 0.9em
+	color: $main-color
+	font-weight: 100
+	line-height: 1.4
+	margin: 1em 0
+
+.raitem__time
+	font-size: 0.9em
+	font-weight: 500
+	display: block
+
+	.recent-activity__col--hangouts &
+		margin-left: 0
+		padding-bottom: 0.4em
+		margin-top: 1.5em
+		font-size: 0.8em
+
+.raitem__author
+	line-height: 1.3
+	font-size: 0.9em
+	+clearfix
+
+.raitem__author__avatar
+	float: left
+	border: 3px solid white
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.2)
+
+.raitem__author__name
+	margin: 0 0 0.2em
+	font-weight: 500
+	padding-top: 0.3em
+
+.raitem__author__name,
+.raitem__time
+	margin-left: 60px
+
+.raitem__btn-hg
+	background-color: $color-hangouts
+	box-shadow: 0 0 0 1.6px $color-hangouts
+	display: block
+	width: 100%
+	border-radius: 2px
+	font-size: 0.9em
+	padding: 0.8em 1em

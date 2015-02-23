@@ -1,0 +1,47 @@
+<!-- Articulos -->
+<%
+  function excerpt(content) {
+    return content.split('<!-- more -->')[0];
+  }
+
+  function slice(object, items) {
+    var count = 0;
+    var sliced = {};
+    for (var o in object) {
+      sliced[o] = object[o];
+      if (count == items) {
+        break;
+      }
+      count++;
+    }
+    return sliced;
+  }
+%>
+
+<section id="eventos"></section>
+
+<section id="articulos">
+  <%
+    var posts = slice(public.posts._data.posts, 3);
+    for(var slug in posts) {
+      var post = posts[slug];
+      var author = public.posts._data.authors[post.author];
+    %>
+    <a href="https://github.com/<%= author.github %>" target="_blank">
+      <img src="<%= author.avatar %>" alt="<%= author.name %>" class="img-circle" style="max-width:90%;" />
+    </a>
+    <a href="/posts/<%= slug %>"><%= post.title %></a>
+      <div>
+        <%- excerpt(partial("posts/" + slug)) %>
+      </div>
+      <span class="datetime"><%= new Date(post.date) %></span>
+        <a href="https://github.com/<%= author.github %>" target="_blank">
+          <%= author.name %>
+        </a>
+    <% } %>
+    <% if (Object.keys(public.posts._data.posts) > 3) { %>
+      <a href="/posts">
+        Ver m&aacute;s art&iacute;culos
+      </a>
+    <% } %>
+</section>

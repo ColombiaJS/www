@@ -1,0 +1,90 @@
+.social
+	margin-top: 4em
+	padding-top: 4em
+	padding-bottom: 4em
+	display: flex
+	position: relative
+
+	&:before
+		content: " "
+		border-top: 1px solid white
+		border-bottom: 1px solid $hr-color
+		display: block
+		top: 0
+		left: 0
+		right: 0
+		position: absolute
+
+.social__subscribe,
+.social__twitter
+	flex: 1
+
+.social__title
+	font-weight: 100
+	font-size: 1.2em
+	margin: 0 0 1em
+
+	&:before
+		font-family: icomoon
+		font-size: 2.2em
+		vertical-align: middle
+		display: inline-block
+		margin-right: 0.6em
+
+	.social__subscribe &:before,
+	.social__twitter &:before
+		// color: #dbdbdb
+		color: rgba(0,0,0,0)
+		text-shadow: 0.025em 0.025em 0.025em #dbdbdb, 0 0 0 darken(#dbdbdb, 10)
+		font-weight: 100
+		-webkit-font-smoothing: antialiased
+		
+	
+	.social__subscribe &:before
+		content: "\e601"
+
+	.social__twitter &:before
+		content: "\e600"
+
+	> a
+		font-weight: 500
+		color: darken($main-color, 10%)
+
+
+.social__tweet
+	margin-bottom: 1.6em
+
+.social__tweet__message
+	background: rgba(255, 255, 255, 0.6)
+	padding: 1.1em 2.2em 1.4em
+	font-size: 0.9em
+	color: #86807B
+	position: relative
+	border-radius: 3px
+
+	&:before
+		top: 100%
+		background: rgba(255, 255, 255, 0.6)
+		width: 35px
+		height: 20px
+		left: 55px
+		content: " "
+		position: absolute
+		border-radius: 0 0 0 100%
+
+	&:after
+		top: 100%
+		left: 80px
+		width: 10px
+		height: 20px
+		background: #f2f2f2 url("/img/background.jpg")
+		content: " "
+		position: absolute
+		border-radius: 0 0 0 100%
+
+
+.social__tweet__footer
+	font-size: 0.75em
+	padding-left: 20%
+	padding-top: 1em
+	font-weight: 500
