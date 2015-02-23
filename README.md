@@ -1,14 +1,29 @@
 # ColombiaJS
-Site powered by [Harp](http://harpjs.com)
+Sitio montado en [Harp](http://harpjs.com)
+
+## Requerimientos
+Para correr este proyecto requires tener instalado:
+- [Node.js](http://nodejs.org/) o [io.js](https://iojs.org)
+
+## Instalación
+1. `npm install`
+
+## Correr
+Para correr el servidor simplemente ejecuta:
+
+```
+$ gulp
+```
+Este comando se encargará de compilar con harp y servir el sitio con `browsersync`
 
 ## How to write a Post?
 
-1. Create a markdown file on `_harp/posts/`
-2. Add meta to `_harp/posts/_data.json`
-3. Run the livereload server with `npm run dev`
-4. Visit [http://localhost:9000](http://localhost:9000) to open a preview site
-5. When done, compile the site by running `npm run build`
-6. Publish it to github on `master` branch
+1. Crea un archivo markdown en `_harp/posts/`
+2. Agrega el meta-description en `_harp/posts/_data.json`
+3. Corre el servidor `gulp server`
+4. Visita [http://localhost:9000](http://localhost:9000) para ver un preview del sitio
+5. cuando terminas compila el sitio corriendo `gulp build`
+6. Publica a github en la rama `master`
 
 ## The MIT License (MIT)
 
